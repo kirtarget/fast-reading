@@ -7,6 +7,6 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 };

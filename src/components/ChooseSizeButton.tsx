@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 interface ChooseSizeButtonProps {
   size: number;
   onClick: () => void;
@@ -5,12 +7,9 @@ interface ChooseSizeButtonProps {
 
 const ChooseSizeButton = ({ size, onClick }: ChooseSizeButtonProps) => {
   return (
-    <button
-      onClick={onClick}
-      className="bg-purple-400 rounded-md py-1 px-3 text-lg mx-2"
-    >
+    <Button onClick={onClick}>
       {size}x{size}
-    </button>
+    </Button>
   );
 };
 
