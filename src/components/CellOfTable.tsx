@@ -32,7 +32,7 @@ const CellOfTable = ({ value, handleClick, nextNumber }: CellOfTableProps) => {
       w-full h-full
       items-center border-purple-400 justify-center 
       text-3xl font-semibold cursor-pointer 
-      hover:bg-purple-300 focus:bg-purple-300
+      hover:bg-purple-300
       ${error === null ? "bg-purple-100" : ""}
       ${error ? "bg-red-300" : "bg-green-300"}
       `}
